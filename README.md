@@ -1,5 +1,9 @@
 ## Portfolio simple web site
 
+Used technologies:
+ - Laravel framework
+ - Bootstrap
+ - ReactJs
 
 
 ## TO DO list
