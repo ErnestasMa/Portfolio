@@ -6,6 +6,7 @@ import NewProject from './NewProject'
 import ProjectsList from './ProjectsList'
 import SingleProject from './SingleProject'
 import Home from './Home'
+import Weather from "./Weather/weather";
 class App extends Component {
     render () {
         return (
@@ -15,8 +16,10 @@ class App extends Component {
                     <Switch>
                         <Route exact path='/projects' component={ProjectsList} />
                         <Route exact path='/home' component={Home} />
+                        <Route exact path='/weather' component={Weather} />
                         <Route path='/projects/create' component={NewProject} />
                         <Route path='/projects/:id' component={SingleProject} />
+
                     </Switch>
                 </div>
             </BrowserRouter>

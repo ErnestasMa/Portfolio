@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 class ProjectsList extends Component {
     constructor () {
-        super()
+        super();
         this.state = {
             projects: []
         }
